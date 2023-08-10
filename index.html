@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Моя страница</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./Styles/font.css">
+         </head>
+    <body class="wrap">
+   
+        <header>
+            <div class="hdcontainer">
+                <a href="#aboutme" class="hdcontainer__linkclass">Главная</a>
+                <a href="#myskills" class="hdcontainer__linkclass">Мои навыки</a>
+                <a href="#mycontacts" class="hdcontainer__linkclass">Мои контакты</a>                
+            </div>
+        </header>
+
+<!--        
+        
+        <header class="topnav">
+            <a href="#aboutme" class="header_link_class">Главная</a>
+            <a href="#myskills" class="header_link_class">Мои навыки</a>
+            <a href="#mycontacts" class="header_link_class">Мои контакты</a>
+        </header>
+-->    
+
+<main>
+    <h1 class="h1class" id="aboutme"> Ильин Илья Сергеевич. Начинающий frontend-разработчик </h1>
+    <div class="maincontainer">
+        
+
+        <aside class="maincontainer__asideleft">
+            <img class="maincontainer__asideleft-myimg" src="img/MyPhoto.png" alt="Моё изображение" width="300" height="306">
+        </aside>
+
+        <div class="maincontainer__rightpart">
+
+            <h2 class="h2class list_title_class"> Обо мне </h2>
+            <p class="maincontainer__para">Родился и живу в г. Москва. </p>            
+            <h2 class="h2class list_title_class"> Образование и работа </h2>
+            <p class="maincontainer__para">
+                Высшее образование. Закончил гаографический факультет им. М.В. Ломоносова, кафедра метеорологии и климатологии.
+                Кандидт географических наук. В настоящий момент работаю по специальности. Основное направление - оценка загрязнения 
+                атмосферного воздуха. 
+            </p>            
+
+            <h2 id="myskills" class="h2class list_title_class"> Навыки </h2>
+            <ul class="list_class maincontainer__para">
+                <li> Fortran
+                <li> Немного pyton
+                <li> Совсем немного c-shell
+                <li> HTML5 - в процессе изучения
+            </ul>
+
+            <h2 class="h2class list_title_class"> Занятия вне работы </h2>
+            <ul class="list_class maincontainer__para">
+                <li> Книги
+                <li> Немного плавания
+                <li> Водные походы
+            </ul>
+
+            <h2 class="h2class list_title_class"> Как я стал разработчиком </h2>    
+            <p class="maincontainer__para"> На самом деле, ещё не стал, а только учусь. Причина - непростая ситуация с работой. Есть риск закрытия нашей организации, поэтому решил подстраховаться
+                и освоить альтернатиную специальность. Так как работа отчасти связана с программированием, то решил, что такой альтернативой может стать какая-либо 
+                IT-специальность. 
+            </p>
+
+            <h2 class="h2class list_title_class"> Этапы в IT </h2>
+            <ul class="list_class maincontainer__para">
+                <li> В марте 2023 года записался на 2-х месчные курсы Skillfactory 'Введение в IT'
+                <li> В мае 2023 года выбпал направление  -  Frontend
+                <li> К началу июня завершил модули, посвящённые HTML-вёрстке.  
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+<!--
+        <main>
+           <h1 class="h2class h1class" id="aboutme"> Ильин Илья Сергеевич. Начинающий frontend-разработчик </h1>
+            <img src="img/MyPhoto.png" alt="Моё изображение" width="300" height="306">
+
+            <h2 class="h2class list_title_class"> Обо мне </h2>
+            <p>Родился и живу в г. Москва. </p>
+
+            <h2 class="h2class list_title_class"> Образование и работа </h2>
+            <p>
+                Высшее образование. Закончил гаографический факультет им. М.В. Ломоносова, кафедра метеорологии и климатологии.
+                Кандидт географических наук. В настоящий момент работаю по специальности. Основное направление - оценка загрязнения 
+                атмосферного воздуха. 
+            </p>
+
+            <h2 id="myskills" class="h2class list_title_class"> Навыки </h2>
+            <ul class="list_class">
+                <li> Fortran
+                <li> Немного pyton
+                <li> Совсем немного c-shell
+                <li> HTML5 - в процессе изучения
+            </ul>
+
+            <h2 class="h2class list_title_class"> Занятия вне работы </h2>
+            <ul class="list_class">
+                <li> Книги
+                <li> Немного плавания
+                <li> Водные походы
+            </ul>
+
+            <h2 class="h2class list_title_class"> Как я стал разработчиком </h2>    
+            <p> На самом деле, ещё не стал, а только учусь. Причина - непростая ситуация с работой. Есть риск закрытия нашей организации, поэтому решил подстраховаться
+                и освоить альтернатиную специальность. Так как работа отчасти связана с программированием, то решил, что такой альтернативой может стать какая-либо 
+                IT-специальность. 
+            </p>
+
+            <h2 class="h2class list_title_class"> Этапы в IT </h2>
+            <ul class="list_class">
+                <li> В марте 2023 года записался на 2-х месчные курсы Skillfactory 'Введение в IT'
+                <li> В мае 2023 года выбпал направление  -  Frontend
+                <li> К началу июня завершил модули, посвящённые HTML-вёрстке.  
+            </ul>
+
+
+        <main>
+-->             
+        <footer >
+            <div class="ftcontainer">
+                <h2 id="mycontacts" class="h2class contact_class"> Мои контакты</h2>
+                <div class="ftcontainer__paraicon">
+                    <img src="./img/settings_phone_black_24dp.svg" alt="иконка телефона">
+                    <p class="ftcontainer__para"> Телефон: 8-916-111-22-33</p>
+                </div>
+
+                <div class="ftcontainer__paraicon">
+                    <img src="./img/mail_black_24dp.svg" alt="иконка телефона">
+                    <p class="ftcontainer__para"> Адрес: г. Москва, ул. Какая-то, дом мой</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
