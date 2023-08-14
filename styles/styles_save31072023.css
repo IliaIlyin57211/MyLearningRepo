@@ -1,0 +1,82 @@
+
+.topnav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em; 
+ /*   padding-right: 2em; */
+    top: 0;
+    width: auto;
+    height: 30px; 
+    background-color: #c2e0d4;    
+}
+
+.header_link_class{
+    color:rgb(128, 0, 0);
+    margin:20px;
+    font-family: cursive;
+}
+
+.h2class{
+    color: rgb(47, 79, 79);
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.list_title_class{
+    font-size: 24px;
+}
+
+.contact_class{
+    font-size: 20px;
+    font-style: italic;
+}
+
+a:hover {
+    color: rgb(110, 12, 223);
+    background-color: rgb(255, 228, 196);
+    font-weight: bold;
+  }
+
+
+.h1class{
+    font-size: 40px;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: 0;
+ }
+  
+ li {
+    position: relative;
+    /*font-size: 2em;*/
+    font-size: 1em;
+ }
+
+.list_class li{padding-left: 20px;}
+ 
+
+.list_class li::before{
+    content: "\21E8";
+    /* 269C - fleur de lis */
+    /* 21E8 white arrow */
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*font-size: 2rem;*/
+    font-size: 1em;
+    color: rgb(255, 123, 0);        
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+/*   height: 300px; */
+    background-color: #ecd5d5;
+    padding-top: 2em;
+  
+}
